@@ -156,7 +156,7 @@ public class CalculatorUI {
             typedValue = 0;
         });
 
-        btnBack = createButton("<-", columns[1], rows[1]);
+        btnBack = createButton("<->", columns[1], rows[1]);
         btnBack.addActionListener(event -> {
             String str = inputScreen.getText();
             StringBuilder str2 = new StringBuilder();
